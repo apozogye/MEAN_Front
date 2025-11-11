@@ -5,7 +5,7 @@ import { Empleado } from '../models/empleado';
   providedIn: 'root'
 })
 export class EmpleadoService {
-  URL_API = 'http://localhost:3000/api/empleados';
+  URL_API = 'http://18.118.175.36:3000/api/empleados';
   empleados: Empleado[] = [];
   selectedEmpleado: Empleado = {
     nombre: '',
